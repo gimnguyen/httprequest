@@ -23,4 +23,5 @@ public class ServiceResponse {
 	public void setRawdata(String rawdata) {
 		rawData = rawdata;
 	}
+	
 }

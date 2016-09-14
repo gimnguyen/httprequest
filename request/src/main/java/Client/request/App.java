@@ -4,10 +4,10 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
-        String url = "http://jsonplaceholder.typicode.com/posts/1";
-        ServiceResponse response;
+        String url = "http://jsonplaceholder.typicode.com/comments?postId=1";
+        ServiceResponse response = RequestHelper.getRequest(url);
         
+        System.out.println(response.getRawdata());
         
     }
 
